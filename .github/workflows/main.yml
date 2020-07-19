@@ -38,4 +38,4 @@ jobs:
         run: npm install -g surge
 
       - name: deploying on surge
-        run: surge ./build piaic-react.surge.sh --token ${{secrets.SURGE_REACT}}
+        run: surge ./build e-tracker-app-react.surge.sh --token ${{secrets.SURGE_REACT}}
